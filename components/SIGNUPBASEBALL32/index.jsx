@@ -81,7 +81,7 @@ function SIGNUPBASEBALL32(props) {
   };
 
   const onClick = () => {
-    window.location.href = "http://35.72.8.63:1234/";
+    window.location.href = "http://35.72.8.63:5678/";
   };
 
   // const writeToCSV = async () => {
