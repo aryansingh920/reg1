@@ -84,16 +84,6 @@ function SIGNUPBASEBALL32(props) {
     window.location.href = "http://35.72.8.63:5678/";
   };
 
-  // const writeToCSV = async () => {
-  //   const data = {
-  //     name,
-  //     email,
-  //     message,
-  //     phone,
-  //   };
-  //   console.log(data);
-  // };
-
   const debug = () => {
     console.log(name + " " + date + " " + email + " " + phno + " " + pincode);
     // fs.writeFile("./myJSON.json", JSON.stringify(formObject), (err) => {
@@ -129,15 +119,9 @@ function SIGNUPBASEBALL32(props) {
             <div className="rectangle-5"></div>
             <img
               className="screenshot-2023-01-23-at-832-1"
-              src={screenshot20230123At8321}
+              src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed44f8a1a58d92896d8c03/img/olympiclogo-1.png"
               alt="Screenshot 2023-01-23 at 8.32 1"
             />
-
-            {/* <div className="place akshar-normal-black-19px">
-              <a href="http://35.72.8.63:1234/">
-                <p>{place}</p>
-              </a>
-            </div> */}
 
             <p
               className="place akshar-normal-black-19px"
@@ -169,7 +153,7 @@ function SIGNUPBASEBALL32(props) {
               {contactUs2}
             </div>
             <div className="rectangle-6"></div>
-            <div className="ois coda-extra-bold-inchworm-46px">{ois}</div>
+
             <h1 className="have-a-question-abou dohyeon-normal-celeste-54px">
               {haveAQuestionAbou}
             </h1>
@@ -321,3 +305,4 @@ function SIGNUPBASEBALL32(props) {
 }
 
 export default SIGNUPBASEBALL32;
+
